@@ -7,7 +7,7 @@ using MyBank.Dominio.Features.Contas;
 using MyBank.Dominio.Features.Pessoas;
 using MyBank.Dominio.Interfaces;
 
-namespace MyBank.Infra.Gerenciamento.Banco.Features.SQLServer
+namespace MyBank.Infra.Gerenciamento.Banco.SQLServer
 {
     public class GerenciadorSQL : IGerenciadorSQL<Agencia>, IGerenciadorSQL<Conta>, IGerenciadorSQL<Pessoa>
     {

@@ -8,7 +8,7 @@ using MyBank.Dominio.Features.Contas;
 
 namespace MyBank.Apresentacao.Console.Features.Contas
 {
-	public class MenuConta : IMenuConta<Conta>
+	public class MenuConta : IMenuCadastro<Conta>
 	{
 		private readonly IServicoConta _conta;
 

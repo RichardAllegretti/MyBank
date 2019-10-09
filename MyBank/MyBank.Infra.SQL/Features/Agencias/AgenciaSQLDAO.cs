@@ -77,12 +77,7 @@ namespace MyBank.Infra.SQL.Features.Agencias
                         UF = x.ItemArray[4].ToString()
                     });
 
-
-
-
             return null;
-
-
         }
 
         public List<Agencia> SelecionarTudo()

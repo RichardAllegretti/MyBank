@@ -9,7 +9,7 @@ using MyBank.Dominio.Features.Pessoas;
 
 namespace MyBank.Apresentacao.Console.Features.Pessoas
 {
-	public class MenuPessoa : IMenuPessoa<Pessoa>
+	public class MenuPessoa : IMenuCadastro<Pessoa>
 	{
 		private readonly IServicoPessoa _pessoa;
 

@@ -44,8 +44,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Interfaces\IMenu.cs" />
-    <Compile Include="Features\Contas\IMenuConta.cs" />
-    <Compile Include="Features\Pessoas\IMenuPessoa.cs" />
     <Compile Include="Features\Menu.cs" />
     <Compile Include="Features\Agencias\MenuAgencia.cs" />
     <Compile Include="Features\Contas\MenuConta.cs" />

@@ -47,7 +47,6 @@
     <Compile Include="Features\Contas\Conta.cs" />
     <Compile Include="Features\Pessoas\Pessoa.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Features\Pessoas\ValidaCadastroPessoa.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

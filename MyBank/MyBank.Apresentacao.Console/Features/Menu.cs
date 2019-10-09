@@ -5,7 +5,7 @@ using MyBank.Apresentacao.Console.Features.Agencias;
 using MyBank.Dominio.Features.Agencias;
 using MyBank.Dominio.Interfaces;
 using MyBank.Infra.Gerenciamento.Banco;
-using MyBank.Infra.Gerenciamento.Banco.Features.SQLServer;
+using MyBank.Infra.Gerenciamento.Banco.SQLServer;
 using MyBank.Infra.SQL;
 using MyBank.Infra.SQL.Features.Agencias;
 
