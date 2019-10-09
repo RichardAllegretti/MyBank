@@ -1,9 +1,12 @@
 ﻿using System;
+using MyBank.Aplicacao.Features.Contas;
 using MyBank.Aplicacao.Interfaces;
 using MyBank.Apresentacao.Console.Interfaces;
-using MyBank.Dominio.objetos;
+using MyBank.Apresentacao.Console.objetos;
+using MyBank.Dominio.Features.Agencias;
+using MyBank.Dominio.Features.Contas;
 
-namespace MyBank.Apresentacao.Console.objetos
+namespace MyBank.Apresentacao.Console.Features.Contas
 {
 	public class MenuConta : IMenuConta<Conta>
 	{

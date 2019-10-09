@@ -1,10 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using MyBank.Aplicacao.Interfaces;
+using MyBank.Dominio.Features.Agencias;
+using MyBank.Dominio.Features.Contas;
+using MyBank.Dominio.Features.Pessoas;
 using MyBank.Dominio.Interfaces;
-using MyBank.Dominio.objetos;
 
-namespace MyBank.Aplicacao
+namespace MyBank.Aplicacao.Features.Pessoas
 {
 	public class ServicoPessoa : IServicoPessoa
 	{

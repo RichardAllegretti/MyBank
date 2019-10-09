@@ -1,9 +1,13 @@
 ﻿using System;
+using MyBank.Aplicacao.Features.Pessoas;
 using MyBank.Aplicacao.Interfaces;
 using MyBank.Apresentacao.Console.Interfaces;
-using MyBank.Dominio.objetos;
+using MyBank.Apresentacao.Console.objetos;
+using MyBank.Dominio.Features.Agencias;
+using MyBank.Dominio.Features.Contas;
+using MyBank.Dominio.Features.Pessoas;
 
-namespace MyBank.Apresentacao.Console.objetos
+namespace MyBank.Apresentacao.Console.Features.Pessoas
 {
 	public class MenuPessoa : IMenuPessoa<Pessoa>
 	{

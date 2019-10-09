@@ -1,6 +1,8 @@
 ﻿using System;
+using MyBank.Dominio.Features.Agencias;
+using MyBank.Dominio.Features.Pessoas;
 
-namespace MyBank.Dominio.objetos
+namespace MyBank.Dominio.Features.Contas
 {
 	public class Conta
 	{

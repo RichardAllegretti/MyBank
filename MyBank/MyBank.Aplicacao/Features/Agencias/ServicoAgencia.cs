@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
 using MyBank.Aplicacao.Interfaces;
+using MyBank.Dominio.Features.Agencias;
 using MyBank.Dominio.Interfaces;
-using MyBank.Dominio.objetos;
 
-namespace MyBank.Aplicacao
+namespace MyBank.Aplicacao.Features.Agencias
 {
 	public class ServicoAgencia : IServico<Agencia>
 	{

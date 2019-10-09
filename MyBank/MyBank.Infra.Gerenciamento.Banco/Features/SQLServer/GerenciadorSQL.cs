@@ -2,10 +2,12 @@
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
+using MyBank.Dominio.Features.Agencias;
+using MyBank.Dominio.Features.Contas;
+using MyBank.Dominio.Features.Pessoas;
 using MyBank.Dominio.Interfaces;
-using MyBank.Dominio.objetos;
 
-namespace MyBank.Infra.Gerenciamento.Banco
+namespace MyBank.Infra.Gerenciamento.Banco.Features.SQLServer
 {
     public class GerenciadorSQL : IGerenciadorSQL<Agencia>, IGerenciadorSQL<Conta>, IGerenciadorSQL<Pessoa>
     {

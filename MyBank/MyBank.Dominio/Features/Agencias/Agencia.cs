@@ -1,6 +1,6 @@
 ﻿using System.Xml.Serialization;
 
-namespace MyBank.Dominio.objetos
+namespace MyBank.Dominio.Features.Agencias
 {
     [XmlRoot]
 	public class Agencia

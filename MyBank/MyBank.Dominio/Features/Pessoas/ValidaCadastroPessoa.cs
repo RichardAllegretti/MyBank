@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Text.RegularExpressions;
 
-namespace MyBank.Dominio
+namespace MyBank.Dominio.Features.Pessoas
 {
-	public class ValidaCadastro
-	{
+	public class ValidaCadastroPessoa
+    {
 		public bool IsCPFCNPJ(string cpfCnpj)
 		{
 			if (string.IsNullOrEmpty(cpfCnpj))

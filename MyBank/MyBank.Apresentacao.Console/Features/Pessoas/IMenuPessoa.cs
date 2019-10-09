@@ -1,6 +1,6 @@
 ﻿using MyBank.Apresentacao.Console.objetos;
 
-namespace MyBank.Apresentacao.Console.Interfaces
+namespace MyBank.Apresentacao.Console.Features.Pessoas
 {
 	public interface IMenuPessoa<T>
 	{

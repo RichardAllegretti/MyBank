@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
 using System.Data.SqlClient;
+using MyBank.Dominio.Features.Agencias;
 using MyBank.Dominio.Interfaces;
-using MyBank.Dominio.objetos;
 
-namespace MyBank.Infra.SQL
+namespace MyBank.Infra.SQL.Features.Agencias
 {
     public class AgenciaSQLDAO : IArmazenamento<Agencia>
     {

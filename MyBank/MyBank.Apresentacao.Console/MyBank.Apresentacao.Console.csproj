@@ -44,12 +44,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Interfaces\IMenu.cs" />
-    <Compile Include="Interfaces\IMenuConta.cs" />
-    <Compile Include="Interfaces\IMenuPessoa.cs" />
-    <Compile Include="objetos\Menu.cs" />
-    <Compile Include="objetos\MenuAgencia.cs" />
-    <Compile Include="objetos\MenuConta.cs" />
-    <Compile Include="objetos\MenuPessoa.cs" />
+    <Compile Include="Features\Contas\IMenuConta.cs" />
+    <Compile Include="Features\Pessoas\IMenuPessoa.cs" />
+    <Compile Include="Features\Menu.cs" />
+    <Compile Include="Features\Agencias\MenuAgencia.cs" />
+    <Compile Include="Features\Contas\MenuConta.cs" />
+    <Compile Include="Features\Pessoas\MenuPessoa.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -74,5 +74,6 @@
       <Name>MyBank.Infra.SQL</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -42,12 +42,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Interfaces\IServico.cs" />
-    <Compile Include="Interfaces\IServicoConta.cs" />
-    <Compile Include="Interfaces\IServicoPessoa.cs" />
+    <Compile Include="Features\Contas\IServicoConta.cs" />
+    <Compile Include="Features\Pessoas\IServicoPessoa.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ServicoAgencia.cs" />
-    <Compile Include="ServicoConta.cs" />
-    <Compile Include="ServicoPessoa.cs" />
+    <Compile Include="Features\Agencias\ServicoAgencia.cs" />
+    <Compile Include="Features\Contas\ServicoConta.cs" />
+    <Compile Include="Features\Pessoas\ServicoPessoa.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\MyBank.Dominio\MyBank.Dominio.csproj">
@@ -63,5 +63,6 @@
       <Name>MyBank.Infra.SQL</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
