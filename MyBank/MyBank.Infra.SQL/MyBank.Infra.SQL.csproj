@@ -52,6 +52,10 @@
       <Project>{92b930c8-f2f4-4df5-bea9-4ea8b7186cb5}</Project>
       <Name>MyBank.Dominio</Name>
     </ProjectReference>
+    <ProjectReference Include="..\MyBank.Infra.Gerenciamento.Banco\MyBank.Infra.Gerenciamento.Banco.csproj">
+      <Project>{27bac8de-bf4b-4818-a8e4-4622e0f2e348}</Project>
+      <Name>MyBank.Infra.Gerenciamento.Banco</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

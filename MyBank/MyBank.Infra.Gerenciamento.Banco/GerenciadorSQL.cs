@@ -19,6 +19,10 @@ namespace MyBank.Infra.Gerenciamento.Banco
             _connection.ConnectionString = ConnectionString;
         }
 
+        public GerenciadorSQL()
+        {
+        }
+
         public void OpenConnection()
         {
             if (_connection.State == ConnectionState.Closed)

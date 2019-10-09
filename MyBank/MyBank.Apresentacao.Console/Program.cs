@@ -1,4 +1,4 @@
-﻿using MyBank.Apresentação.OBJ;
+﻿using MyBank.Apresentacao.Console.objetos;
 
 namespace MyBank.Apresentacao.Console
 {

@@ -1,14 +1,11 @@
 ﻿using System;
-using MyBank._2_Aplicação;
-using MyBank._4_Infraestrutura;
 using MyBank.Aplicacao;
-using MyBank.Apresentacao.Console.objetos;
 using MyBank.Dominio.Interfaces;
 using MyBank.Dominio.objetos;
 using MyBank.Infra.Gerenciamento.Banco;
 using MyBank.Infra.SQL;
 
-namespace MyBank.Apresentação.OBJ
+namespace MyBank.Apresentacao.Console.objetos
 {
     public class Menu
     {
@@ -28,9 +25,9 @@ namespace MyBank.Apresentação.OBJ
 
 		public void Inicio()
         {
-            Console.WriteLine("Bem vindo ao MyBank. \n");
-            Console.WriteLine( "Agencia: F1 \nContas: F2\nPessoa: F3" );
-            var opcao = Console.ReadKey();
+            System.Console.WriteLine("Bem vindo ao MyBank. \n");
+            System.Console.WriteLine( "Agencia: F1 \nContas: F2\nPessoa: F3" );
+            var opcao = System.Console.ReadKey();
 
             switch (opcao.Key)
             {
@@ -44,7 +41,7 @@ namespace MyBank.Apresentação.OBJ
 					//_pessoa.Inicio( this );
 					break;
 				default:
-                    Console.WriteLine("Opção Inválida.");
+                    System.Console.WriteLine("Opção Inválida.");
                     break;
             }
         }

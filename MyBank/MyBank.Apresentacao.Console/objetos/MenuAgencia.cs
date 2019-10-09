@@ -1,7 +1,6 @@
 ﻿using System;
 using MyBank.Aplicacao.Interfaces;
 using MyBank.Apresentacao.Console.Interfaces;
-using MyBank.Apresentação.OBJ;
 using MyBank.Dominio.objetos;
 
 namespace MyBank.Apresentacao.Console.objetos

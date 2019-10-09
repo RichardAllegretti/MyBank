@@ -7,7 +7,7 @@ namespace MyBank.Infra.SQL
 {
     public class AgenciaSQLDAO : IArmazenamento<Agencia>
     {
-        private IGerenciadorSQL<Agencia> _comando;
+        private readonly IGerenciadorSQL<Agencia> _comando;
 
         private const string QueryInserir = @"INSERT INTO DBO.AGENCIA (CODIGO, NOME, NOME_CIDADE, UF)
 	                                                      VALUES (@CODIGO, @NOME, @NOME_CIDADE, @UF)";
